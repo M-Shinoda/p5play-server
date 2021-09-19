@@ -1,0 +1,25 @@
+html, body {
+    overflow: hidden;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+}
+
+.content {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    /* IE, Edge 対応 */
+    scrollbar-width: none;
+    /* Firefox 対応 */
+}
+
+.content::-webkit-scrollbar {
+    /* Chrome, Safari 対応 */
+    display: none;
+}
+
+img {
+    pointer-events: none;
+  }
